@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans ;
+}
+header {
+    width: 100%;
+    float: left;
+    background: url("../img/background.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: -485px;
+}
+header .container {
+    width: 90%;
+    margin: auto;
+}
+.main-header {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo-part {
+    width: 50%;
+    float: left;
+}
+nav .menu-part {
+    width: 50%;
+    float: left;
+    text-align: end;
+}
+.menu-part ul li {
+    display: inline-block;
+    margin-top: 12px;
+}
+.menu-part ul li a {
+    padding: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-part h1 {
+    padding-top: 120px;
+    font-size: 52px;
+}
+.hero-part p {
+    padding: 45px;
+
+}
+.hero-part a .btn-free-download {
+    padding: 10px;
+    background-color: white;
+    width: 170px;
+    margin-right: 30px;
+    border-radius: 1em;
+    border: 1px solid white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-contact {
+    padding: 10px;
+    background-color: transparent;
+    width: 170px;
+    border-radius: 1em;
+    margin-bottom: 90px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-part img {
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+#features {
+    width: 100%;
+    float: left;
+    margin-top: 300px;
+    background: url("../img/back.png") no-repeat;
+    background-size: cover;
+}
+#features .container {
+    width: 100%;
+    float: left;
+    margin-top: 475px;
+}
+.features-img-part {
+    width: 40%;
+    float: left;
+}
+.features-img-part img {
+    position: relative;
+    left: 260px;
+    top: 0;
+}
+.features-box-part {
+    width: 60%;
+    float: left;
+}
+.features-box {
+    width: 100%;
+    float: left;
+}
+.features {
+    width: 30%;
+    float: left;
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow:  0 0 5px rgb(102, 98, 98);
+    border-radius: 0.50em;
+}
+.features img {
+    margin: 30px 0;
+}
+
+.features h2 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: rgb(63, 61, 61);
+}
+
+.features p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #B5B7C5;
+}
+.one {
+    position: relative;
+    top: -175px;
+    left: 104px;
+}
+.two {
+    position: relative;
+    top: -125px;
+    left: 170px;
+}
+.three {
+    position: relative;
+    bottom: 100px;
+    right: -35px;
+}
+.four {
+    position: relative;
+    top: 10px;
+    left: 125px;
+}
+#marketing {
+    width: 100%;
+    float: left;
+    margin: 250px 0 100px 0;
+}
+.info-section {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.info-section h2 {
+    font-size: 30px;
+    margin: 40px 120px 40px 0;
+    color: rgb(54, 50, 50);
+}
+.info-section p {
+    margin: 10px 120px 10px 0;
+    color: #8589a8;
+}
+.info-section button {
+    width: 29%;
+    padding: 18px;
+    margin: 20px 120px 20px 0;
+    background-color: aqua;
+    border-radius: 0.50em;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid white;
+}
+.menu-section {
+    width: 50%;
+    float: left;
+}
+.menu-section .menu-item {
+    width: 70%;
+    background-color: white;
+    margin: 0 0 20px 34px;
+    padding: 25px;
+    box-shadow: 3px 2px 14px -6px;
+}
+.menu-section .menu-item img {
+    width: 10%;
+    float: left;
+    padding: 0 20px 0 0;
+}
+.menu-section .menu-item h2 {
+    width: 50%;
+    font-size: 15px;
+    color: rgb(49, 48, 48);
+    padding: 6px 0 0 0;
+}
+.second {
+    width: 70%;
+    background-color: aqua;
+    margin: 0 0 20px 34px;
+    padding: 25px;
+    box-shadow: 3px 2px 14px -6px;
+    
+}
+.second img {
+    width: 4%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.second h2 {
+    width: 50%;
+    margin: 11px 0 11px 0;
+    font-size: 15px;
+    color: rgb(49, 48, 48);
+}
+.second p {
+    padding: 5px 0 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 0 39px;
+}
+#marketing-two {
+    width: 100%;
+    float: left;
+    background-color: #FAFAFC;
+    padding: 75px 0 50px 0;
+}
+.code-img {
+    width: 50%;
+    float: left;
+}
+.code-img img {
+    position: relative;
+    top: 0px;
+    left: 180px;
+}
+.text-part {
+    width: 50%;
+    float: left;
+    padding: 0 0 0 120px;
+}
+.text-part h3 {
+    color: rgb(54, 50, 50);
+    font-size: 30px;
+    padding: 30px 0 40px 0;
+}
+.text-part .checkicon-section {
+    width: 100%;
+    float: left;
+    margin: 0 0 25px 0;
+}
+.text-part .checkicon-section img {
+    width: 7%;
+    float: left;
+    padding: 0 20px 0 0;
+}
+.text-part .checkicon-section b {
+    width: 90%;
+    float: left;
+    padding: 3px 0 0 0;
+    color: rgb(49, 48, 48);
+}
+.text-part p {
+    color: #8589a8;
+    margin: 10px 0;
+}
+#marketing-three {
+    width: 100%;
+    float: left;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    padding: 100px 0 ;
+    margin-bottom: -40px;
+}
+.mobile-part {
+    width: 50%;
+    float: left;
+}
+.mobile-part img {
+    position: relative;
+    top: 0px;
+    left: 360px;
+}
+.text-part-two {
+    width: 50%;
+    float: left;
+    padding: 0 0 0 30px;
+}
+.text-part-two h3 {
+    font-size: 32px;
+    margin: 170px 0 35px 0;
+    color: rgb(54, 50, 50);
+}
+.text-part-two p {
+    font-size: 15px;
+    margin: 10px 0;
+    color: white;
+    font-weight: 500;
+}
+.text-part-two a img {
+    margin: 30px 35px 0 0;
+    width: 25%;
+}
+#marketing-four {
+    width: 100%;
+    float: left;
+}
+.button {
+    text-align: center;
+}
+.button a button  {
+    font-size: 20px;
+    width: 25%;
+    font-weight: 700;
+    color: white;
+    background-color: #F95675;
+    padding: 25px;
+    border: none;
+    cursor: pointer;
+}
+.company-details {
+    width: 100%;
+    float: left;
+    margin: 100px 0 0 0;
+}
+.company-details .container {
+    width: 55%;
+    margin: auto;
+}
+.information-section {
+    width: 25%;
+    float: left;
+}
+.information-section h4 {
+    font-size: 17px;
+    margin: 30px 0;
+    font-weight: 700;
+    color: rgb(94, 91, 91);
+}
+.information-section a {
+    text-decoration: none;
+
+}
+.information-section a b {
+    display: block;
+    margin: 10px 0;
+    color: #8589a8;
+    font-weight: 500;
+    font-size: 15px;
+}
+#subscription-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 100px 0;
+}
+#subscription-part .container {
+    width: 90%;
+    margin: auto;
+}
+#subscription-part .container h5 {
+    font-size: 30px;
+    margin: 20px 0;
+    color: rgb(94, 91, 91);
+    font-weight: 600;
+}
+#subscription-part .container p {
+    font-size: 15px;
+    color: #8589a8;
+    margin: 0 0 55px 0;
+}
+#subscription-part .container form input:first-child {
+    width: 45%;
+    background-color: #dddde7;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    margin: 0 20px 0 0;
+}
+#subscription-part .container form input[value="COUNT ME IN"] {
+    background-color: aqua;
+    width: 15%;
+    border-radius: 0.5em;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    font-weight: 600;
+    color: rgb(68, 67, 67);
+}
+footer {
+    width: 100%;
+    float: left;
+    background-color: #223148;
+    padding: 35px 0;
+}
+footer .container {
+    width: 90%;
+    margin: auto;
+}
+.reserved-side {
+    width: 50%;
+    float: left;
+}
+.reserved-side h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(192, 185, 185);
+}
+.media-icon-area {
+    width: 50%;
+    float: left;
+    padding: 0 0 0 265px;
+}
+.media-icon-area li {
+    float: left;
+    margin: 0 0 0 57px;
+}
